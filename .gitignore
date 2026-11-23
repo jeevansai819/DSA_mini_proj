@@ -1,7 +1,29 @@
-venv/
+# Virtual Environment
 .venv/
+env/
+venv/
+
+# Python Cache
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
 .pytest_cache/
-.ipynb_checkpoints/
+
+# Databases & Runtime Logs
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# DO NOT PUSH REPORTS, PRESENTATIONS & GENERATION SCRIPTS
+*.pdf
+*.docx
+*.pptx
+PROJECT_REPORT*
+Real_Time_Traffic_Congestion_Project_Report*
+Real_Time_Traffic_Congestion_Presentation*
+report_images/
+scripts/generate_docx_report.py
+scripts/generate_pdf_report.py
+scripts/generate_presentation.py
+scripts/prepare_report_images.py
